@@ -1,0 +1,51 @@
+#ppc {
+    padding-top: calc(64.4px + 3rem);
+    h1 {
+        text-align: center;
+        padding: 0 2rem;
+        margin-bottom: 2rem;
+    }
+    .ppc-illustration {
+        width: 80vw;
+        max-width: 400px;
+        margin: 0 auto;
+        display: block;
+        box-shadow: 1rem 1rem 2rem rgb(0 0 0 / 25%);
+    }
+    .ppc-text {
+        padding: 2rem;
+        text-align: center;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .ppc-cta {
+        background-color: var(--secondary);
+        color: white;
+        padding: 1rem;
+        box-shadow: 1rem 1rem 2rem rgb(0 0 0 / 25%);
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        text-decoration: none;
+        margin-bottom: 3rem;
+        border-radius: 5px;
+    }
+    .card-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 900px;
+        margin: 0 auto;
+        .check-card .card-header h2 {
+            color: black;
+        }
+        .check-card {
+            max-width: 400px;
+            padding: 0 2rem;
+            margin-bottom: 2rem;
+        }
+        .card-header {
+            margin-bottom: 1rem;
+        }
+    }
+}

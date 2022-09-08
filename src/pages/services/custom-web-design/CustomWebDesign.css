@@ -1,0 +1,45 @@
+#custom-website-design {
+  padding-top: calc(64.4px + 3rem);
+}
+#custom-website-design h1 {
+  padding: 0 2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+#custom-website-design .illustration-wrap {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+}
+#custom-website-design .illustration-wrap img {
+  width: 40vw;
+  max-width: 300px;
+  transform: perspective(800px) rotateY(15deg);
+  border-radius: 5px;
+  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.25);
+}
+#custom-website-design .illustration-wrap img:first-child {
+  left: 5vw;
+}
+#custom-website-design .illustration-wrap img:last-child {
+  right: 5vw;
+}
+#custom-website-design .check-card-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem auto;
+  padding: 0 1rem;
+  max-width: 900px;
+}
+#custom-website-design .check-card-wrap .check-card {
+  margin-bottom: 2rem;
+  max-width: 400px;
+}
+#custom-website-design .check-card-wrap .check-card .card-header h2 {
+  color: black;
+}
+#custom-website-design .check-card-wrap .check-card .card-header {
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=CustomWebDesign.css.map */

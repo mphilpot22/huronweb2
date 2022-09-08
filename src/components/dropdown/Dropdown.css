@@ -1,0 +1,15 @@
+#nav-dropdown {
+  border-left: 4px solid var(--secondary);
+}
+#nav-dropdown li {
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+#nav-dropdown li:hover {
+  background-color: var(--secondary);
+}
+#nav-dropdown li a {
+  width: 100%;
+}/*# sourceMappingURL=Dropdown.css.map */

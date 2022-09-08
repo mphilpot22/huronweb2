@@ -1,0 +1,78 @@
+#seo {
+    padding-top: calc(64.4px + 3rem);
+
+    h1 {
+        padding: 0 2rem;
+        text-align: center;
+        margin: 0 auto 2rem auto;
+    }
+
+    .seo-illustration-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+        img {
+            width: 40vw;
+            max-width: 300px;
+        }
+        .google-illustration {
+            transform: rotateZ(-5deg);
+        }
+        .yelp-illustration {
+            transform: rotateZ(5deg);
+        }
+    }
+
+    .seo-explanation {
+        padding: 0 2rem;
+        margin: 0 auto 2rem auto;
+        max-width: 900px;
+        text-align: center;
+    }
+
+    .card-wrap {
+        padding: 0 1rem 1rem 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 900px;
+        margin: 0 auto;
+        justify-content: center;
+        .check-card {
+            margin-bottom: 2rem;
+            max-width: 400px;
+        }
+        .check-card .card-header h2 {
+            color: black;
+        }
+        .card-header {
+            margin-bottom: 1rem;
+        }
+    }
+
+    .seo-act-now {
+        background-color: var(--lightgrey);
+        padding: 3rem 0;
+        margin-bottom: 1rem;
+        h1, p {
+            margin: 0 auto 2rem auto;
+            text-align: center;
+            max-width: 900px;
+        }
+        p {
+            padding: 0 2rem;
+            margin-bottom: 2rem;
+        }
+        .seo-act-now-btn {
+            background-color: var(--secondary);
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            box-shadow: 1rem 1rem 2rem rgb(0 0 0 / 25%);
+            border-radius: 5px;
+        } 
+    }
+}

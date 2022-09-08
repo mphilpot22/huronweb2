@@ -1,0 +1,15 @@
+#terms {
+  max-width: 900px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+#terms h1 {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+#terms ul {
+  padding-left: 1rem;
+}
+#terms p, #terms ul {
+  margin: 1rem 0;
+}/*# sourceMappingURL=TOS.css.map */

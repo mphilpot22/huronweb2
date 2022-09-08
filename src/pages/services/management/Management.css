@@ -1,0 +1,60 @@
+#website-management {
+  padding-top: calc(64.4px + 3rem);
+}
+#website-management h1 {
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+#website-management .server-illustration {
+  width: 80vw;
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+  margin-bottom: 3rem;
+}
+#website-management .cta-wrap {
+  background-color: var(--lightgrey);
+  padding: 3rem 0;
+}
+#website-management .cta-wrap h1, #website-management .cta-wrap p {
+  max-width: 900px;
+  margin: 0 auto 2rem auto;
+}
+#website-management .cta-wrap p {
+  padding: 0 2rem;
+  text-align: center;
+}
+#website-management .cta-wrap .service-btn {
+  background-color: var(--secondary);
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.25);
+}
+#website-management .card-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem 1rem 1rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+  justify-content: center;
+}
+#website-management .card-wrap .check-card {
+  max-width: 400px;
+}
+#website-management .card-wrap .check-card .card-header h2 {
+  color: black;
+}
+#website-management .card-wrap .card-header {
+  margin-bottom: 1rem;
+}
+#website-management .card-wrap .check-card p {
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=Management.css.map */

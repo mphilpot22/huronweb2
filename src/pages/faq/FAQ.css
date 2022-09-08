@@ -1,0 +1,16 @@
+#faq {
+  padding-top: calc(64.4px + 3rem);
+  max-width: 900px;
+  margin: 0 auto;
+}
+#faq h1 {
+  text-align: center;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+}
+#faq .faq-icon {
+  display: block;
+  margin: 0 auto;
+  width: 3rem;
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=FAQ.css.map */

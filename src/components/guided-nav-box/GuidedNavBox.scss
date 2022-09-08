@@ -1,0 +1,21 @@
+.guided-nav-wrap {
+    display: flex;
+    flex-direction: column;
+    .l-r-nav-box {
+        padding: 0.5rem 1rem;
+        display: block;
+        display: flex;
+        align-items: center;
+        background-color: var(--lightgrey);
+        border: 1px solid black;
+        margin: 0rem auto 1rem auto;
+        color: var(--secondary);
+        text-decoration: none;
+        border-radius: 5px;
+        max-width: 400px;
+        width: 80vw;
+        img {
+            width: 1rem;
+        }
+    }
+}

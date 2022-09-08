@@ -1,0 +1,25 @@
+.included-card {
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    max-width: 400px;
+    .card-header {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        img {
+            max-width: 3rem;
+            margin-right: 1rem;
+            border-radius: 50%;
+            border: 1px solid;
+            padding: 0.5rem;
+            border-color:
+            rgb(213, 220, 226)
+            rgb(213, 220, 226)
+            rgb(184, 194, 204);
+        }
+    }
+    .card-info {
+        padding: 0 1rem;
+        padding-bottom: 1rem;
+    }
+}

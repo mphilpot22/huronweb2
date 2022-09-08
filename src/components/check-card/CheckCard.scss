@@ -1,0 +1,14 @@
+.check-card {
+    padding: 0 1rem;
+    .card-header {
+        display: flex;
+        align-items: center;
+        img {
+            margin-right: 1rem;
+            width: clamp(2rem, 2vw, 3rem);
+        }
+        h2 {
+            color: white;
+        }
+    }
+}

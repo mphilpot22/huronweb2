@@ -1,0 +1,16 @@
+#nav-dropdown {
+    border-left: 4px solid var(--secondary);
+    
+    li {
+        min-width: 200px;
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 1rem;
+        &:hover {
+            background-color: var(--secondary);
+        }
+        a {
+            width: 100%;
+        }
+    }
+}

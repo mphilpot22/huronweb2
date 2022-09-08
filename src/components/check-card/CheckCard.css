@@ -1,0 +1,14 @@
+.check-card {
+  padding: 0 1rem;
+}
+.check-card .card-header {
+  display: flex;
+  align-items: center;
+}
+.check-card .card-header img {
+  margin-right: 1rem;
+  width: clamp(2rem, 2vw, 3rem);
+}
+.check-card .card-header h2 {
+  color: white;
+}/*# sourceMappingURL=CheckCard.css.map */

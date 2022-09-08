@@ -1,0 +1,90 @@
+#pricing {
+    padding-top: calc(64.4px + 3rem);
+    padding-bottom: 2rem;
+    h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .pricing-notice{
+        padding: 0 2rem;
+        margin: 0 auto 2rem auto;
+        text-align: center;
+        max-width: 600px;
+    }
+    .plan-wrap, .additional-services-wrap {
+        padding-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        .plan {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1rem;
+            padding: 1.5rem;
+            border-top: 4px solid var(--secondary);
+            width: 80vw;
+            max-width: 300px;
+            width: 100%;
+            box-shadow: 0 1px 6px #3d415426;
+            transition: box-shadow 0.2s ease-in-out;
+            border-radius: 5px;
+            margin: 2rem auto;
+            cursor: pointer;
+            &:hover {
+                box-shadow: 0 2px 26px #3d415426;
+            }
+            h1 {
+                margin-bottom: 1rem;
+            }
+        }
+        .plan-focus {
+            background-color: rgba(0, 81, 255, 0.11);
+            transform: scale(1.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        .price {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--secondary);
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .no-fees {
+            color: rgb(206, 41, 41);
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        .info {
+            margin-bottom: 1rem;
+        }
+        a {
+            margin: 0 auto;
+        }
+        ul {
+            padding: 0 1rem 1rem 1rem;
+            li {
+                padding: 0.3rem 0;
+            }
+        }
+        .get-started-btn {
+            background-color: var(--secondary);
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+        }
+    }
+}
+
+@media screen and(min-width: 1000px){
+    #pricing .plan-wrap, #pricing .additional-services-wrap {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        .plan {
+            margin: 1rem;
+        }
+    }
+}

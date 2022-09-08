@@ -1,0 +1,39 @@
+#why-be-online {
+    padding-top: calc(81.2px + 3rem);
+
+    h1 {
+        padding: 0 1rem;
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto 1rem auto;
+    }
+    .device-illustration-wrap {
+        display: flex;
+        overflow: hidden;
+        padding-top: 1rem;
+        padding-left: 2rem;
+        margin: 0 auto 2rem auto;
+        max-width: 750px;
+        img {
+          &:first-child {
+            width: 80vw;
+            max-width: 600px;
+          }
+          &:last-child {
+            position: absolute;
+            width: 20vw;
+            max-width: 150px;
+            right: 10vw;
+            bottom: 0;
+          }
+        }
+    }
+    .card-wrap {
+        padding-bottom: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 900px;
+        justify-content: space-evenly;
+        margin: 0 auto;      
+    }    
+}

@@ -1,0 +1,90 @@
+#pricing {
+  padding-top: calc(64.4px + 3rem);
+  padding-bottom: 2rem;
+}
+#pricing h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#pricing .pricing-notice {
+  padding: 0 2rem;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  max-width: 600px;
+}
+#pricing .plan-wrap, #pricing .additional-services-wrap {
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+#pricing .plan-wrap .plan, #pricing .additional-services-wrap .plan {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  border-top: 4px solid var(--secondary);
+  width: 80vw;
+  max-width: 300px;
+  width: 100%;
+  box-shadow: 0 1px 6px rgba(61, 65, 84, 0.1490196078);
+  transition: box-shadow 0.2s ease-in-out;
+  border-radius: 5px;
+  margin: 2rem auto;
+  cursor: pointer;
+}
+#pricing .plan-wrap .plan:hover, #pricing .additional-services-wrap .plan:hover {
+  box-shadow: 0 2px 26px rgba(61, 65, 84, 0.1490196078);
+}
+#pricing .plan-wrap .plan h1, #pricing .additional-services-wrap .plan h1 {
+  margin-bottom: 1rem;
+}
+#pricing .plan-wrap .plan-focus, #pricing .additional-services-wrap .plan-focus {
+  background-color: rgba(0, 81, 255, 0.11);
+  transform: scale(1.1);
+}
+#pricing .plan-wrap h2, #pricing .additional-services-wrap h2 {
+  text-align: center;
+}
+#pricing .plan-wrap .price, #pricing .additional-services-wrap .price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--secondary);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#pricing .plan-wrap .no-fees, #pricing .additional-services-wrap .no-fees {
+  color: rgb(206, 41, 41);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+#pricing .plan-wrap .info, #pricing .additional-services-wrap .info {
+  margin-bottom: 1rem;
+}
+#pricing .plan-wrap a, #pricing .additional-services-wrap a {
+  margin: 0 auto;
+}
+#pricing .plan-wrap ul, #pricing .additional-services-wrap ul {
+  padding: 0 1rem 1rem 1rem;
+}
+#pricing .plan-wrap ul li, #pricing .additional-services-wrap ul li {
+  padding: 0.3rem 0;
+}
+#pricing .plan-wrap .get-started-btn, #pricing .additional-services-wrap .get-started-btn {
+  background-color: var(--secondary);
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 1000px) {
+  #pricing .plan-wrap, #pricing .additional-services-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  #pricing .plan-wrap .plan, #pricing .additional-services-wrap .plan {
+    margin: 1rem;
+  }
+}/*# sourceMappingURL=Pricing.css.map */

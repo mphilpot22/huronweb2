@@ -1,0 +1,38 @@
+#website-analysis {
+    padding-top: calc(64.4px + 3rem);
+    h1 {
+        padding: 0 2rem;
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto 2rem auto;
+    }
+    .analysis-illustration {
+        width: 60vw;
+        max-width: 400px;
+        display: block;
+        margin: 0 auto;
+    }
+    .analysis-text {
+        padding: 0 2rem;
+        max-width: 600px;
+        text-align: center;
+        margin: 0 auto 2rem auto;
+    }
+    .card-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 900px;
+        justify-content: center;
+        margin: 0 auto;
+        .check-card .card-header h2 {
+            color: black;
+        }
+        .check-card {
+            max-width: 400px;
+            padding: 0 2rem 2rem 2rem;
+        }
+        .card-header {
+            margin-bottom: 1rem;
+        }
+    }
+}

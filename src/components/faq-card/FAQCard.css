@@ -1,0 +1,10 @@
+.faq-card {
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.faq-card h2 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}/*# sourceMappingURL=FAQCard.css.map */

@@ -1,0 +1,58 @@
+#website-management {
+    padding-top: calc(64.4px + 3rem);
+    h1 {
+        padding: 0 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .server-illustration {
+        width: 80vw;
+        display: block;
+        margin: 0 auto;
+        max-width: 500px;
+        margin-bottom: 3rem;
+    }
+    .cta-wrap {
+        background-color: var(--lightgrey);
+        padding: 3rem 0;
+        h1, p {
+            max-width: 900px;
+            margin: 0 auto 2rem auto;
+        }
+        p {
+            padding: 0 2rem;
+            text-align: center;
+        }
+        .service-btn {
+            background-color: var(--secondary);
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+            border-radius: 5px;
+            box-shadow: 1rem 1rem 2rem rgb(0 0 0 / 25%);
+        }
+    }
+    .card-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 3rem 1rem 1rem 1rem;
+        max-width: 900px;
+        margin: 0 auto;
+        justify-content: center;
+        .check-card {
+            max-width: 400px;
+        }
+        .check-card .card-header h2 {
+            color: black;
+        }
+        .card-header {
+            margin-bottom: 1rem;
+        }
+        .check-card p {
+            margin-bottom: 2rem;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+#custom-website-design {
+    padding-top: calc(64.4px + 3rem);
+    h1 {
+        padding: 0 2rem;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .illustration-wrap {
+        margin-bottom: 3rem;
+        display: flex;
+        justify-content: center;
+        img {
+            width: 40vw;
+            max-width: 300px;
+            transform: 
+                perspective(800px)
+                rotateY(15deg);
+            border-radius: 5px;
+            box-shadow: 1rem 1rem 2rem rgb(0 0 0 / 25%);
+            &:first-child {
+                left: 5vw;
+            }
+            &:last-child {
+                right: 5vw
+            }
+        }
+    }
+    .check-card-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 1rem auto;
+        padding: 0 1rem;
+        max-width: 900px;
+        .check-card {
+            margin-bottom: 2rem;
+            max-width: 400px;
+        }
+        .check-card .card-header h2 {
+            color: black;
+        }
+        .check-card .card-header {
+            margin-bottom: 1rem;
+        }
+    }
+}
